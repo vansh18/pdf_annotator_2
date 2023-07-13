@@ -1,0 +1,61 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #525659;
+}
+
+.top-bar {
+  padding: 10px;
+  background-color: #323639;
+  color: #fff;
+  text-align: center;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #323639;
+  border-radius: 50px;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background-color: #424649;
+}
+
+#zoom-in,
+#zoom-out,
+#save-button,
+#zoom-percentage,
+#toggle-drawing,
+#drawing-color,
+#drawing-thickness {
+    background-color: #323639;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#drawing-controls {
+    background-color: #323639;
+    display: inline-block;
+    align-items: center;
+}
+
+#drawing-color,
+#drawing-thickness {
+    margin-left: 10px;
+}
+
+#canvas {
+  display: block;
+  margin: auto;
+  border: 1px solid #ccc;
+  background-color: #111;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="new.css" />
+    <title>PDF Editor</title>
+  </head>
+  <body>
+    <div class="top-bar">
+      <button id="prev-button">Previous</button>
+      <button id="zoom-out">-</button>
+      <span id="zoom-percentage">100%</span>
+      <button id="zoom-in">+</button>
+      <button id="next-button">Next</button>
+      <div id="drawing-controls">
+        <button id="toggle-drawing">Start Drawing</button>
+        <input type="color" id="drawing-color" value="#000000" />
+        <input type="range" id="drawing-thickness" min="1" max="10" value="2" />
+      </div>
+      <button id="clear-button">Clear</button>
+      <button id="save-button">Save</button>
+    </div>
+
+    <canvas id="canvas"></canvas>
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+    <script src="new.js"></script>
+  </body>
+</html>
